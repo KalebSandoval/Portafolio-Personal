@@ -1,0 +1,117 @@
+*{
+    font-family: sans-serif;
+}
+
+header {
+    font-family: sans-serif;
+    overflow: auto;
+    margin-bottom: 5%;
+}
+
+header img {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    padding-top: 40px;
+}
+
+header h2 {
+    color: #0D33B3;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+img{
+    border-radius: 100%;
+}
+
+h1{
+    color: #0D33B3;
+}
+
+h2{
+    color: #acacac;
+}
+
+main input{
+    border-color: #0D33B3;
+    border-width: 3px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #0D33B3;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    background-color: #0D33B3;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+table{
+    border-width: 3px;
+    border-color: #acacac;
+    border-style: solid;
+}
+
+th, td{
+    border: 1px solid #d0d0d0;
+    text-align: center;
+    padding: 8px;
+}
+
+#schedule th{
+    background: #0D33B3;
+    padding: 5px 15px;
+    color: #acacac;
+}
+
+.hour-schedule{
+    background: #acacac;
+    color: #0D33B3;
+    font-weight: bold;
+    width: 100px;
+}
+
+.ingles {
+    background-color: #D8B4FE;
+}
+
+.metodos-numericos {
+    background-color: #A7F3D0;
+}
+
+.administracion-software {
+    background-color: #BAE6FD;
+}
+
+.disenio-sistemas {
+    background-color: #FDE68A;
+}
+
+.administracion-proyectos {
+    background-color: #FBCFE8;
+}
+
+.arquitectura {
+    background-color: #C7D2FE;
+}
+
+.aplicaciones-web {
+    background-color: #FED7AA;
+}
+
+.ingenieria-requisitos{
+    background-color: #FCA5A5;
+}
