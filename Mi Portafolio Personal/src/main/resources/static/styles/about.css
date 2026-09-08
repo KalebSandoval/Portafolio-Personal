@@ -1,0 +1,38 @@
+#titulo{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #0D33B3;
+    color: #ffffff;
+    padding: 6px;
+}
+
+main{
+    font-family: sans-serif;
+    display: flex;
+}
+
+main h3{
+    color: #0D33B3;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #0D33B3;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
+nav a:hover {
+    background-color: #09247D;
+}
+
+#gustos{
+    width: 50%;
+}
+
+#hobbies {
+    width: 50%;
+    margin-left: 30%;
+}

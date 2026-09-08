@@ -1,5 +1,28 @@
-h1, h2{
+*{
     font-family: sans-serif;
+}
+
+header {
+    font-family: sans-serif;
+    overflow: auto;
+    margin-bottom: 5%;
+}
+
+header img {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    padding-top: 40px;
+}
+
+header h2 {
+    color: #0D33B3;
+}
+
+h1, h2{
     text-align: center;
 }
 
@@ -20,6 +43,22 @@ main input{
     border-width: 3px;
 }
 
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #0D33B3;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    background-color: #0D33B3;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
 table{
     border-width: 3px;
     border-color: #acacac;
@@ -27,15 +66,13 @@ table{
 }
 
 th, td{
-    border-width: 2px;
-    border-color: #acacac;
-    border-style: solid;
+    border: 1px solid #d0d0d0;
     text-align: center;
+    padding: 8px;
 }
 
 #schedule th{
     background: #0D33B3;
-    font-family: sans-serif;
     padding: 5px 15px;
     color: #acacac;
 }
@@ -44,7 +81,7 @@ th, td{
     background: #acacac;
     color: #0D33B3;
     font-weight: bold;
-    font-family: sans-serif;
+    width: 100px;
 }
 
 .ingles {
